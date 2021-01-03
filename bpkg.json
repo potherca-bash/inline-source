@@ -1,0 +1,23 @@
+{
+  "name": "inline-source",
+  "author": "Ben Peachey <potherca@gmail.com>",
+  "dependencies": {
+    "potherca-bash/includes": "v0.1.0"
+  },
+  "dev-dependencies": {
+    "mvdan/sh": "v3.2.1",
+    "koalaman/shellcheck": "v0.7.1"
+  },
+  "description": "Inline `source`-ed code.",
+  "files": [
+    "LICENSE",
+    "README.md"
+  ],
+  "global": "true",
+  "install": "install -b dist/inline_source ${PREFIX:-/usr/local}/bin/inline_source && chmod +x ${PREFIX:-/usr/local}/bin/inline_source",
+  "license": "MPL-2.0",
+  "scripts": [
+    "dist/inline_source"
+  ],
+  "version": "0.1.0"
+}
