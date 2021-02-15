@@ -16,6 +16,9 @@ replace_line_with_file_content() {
     if [[ ${REPLY:0:2} != '#!' ]]; then
       # Ignore shebang line
       echo "${REPLY}"
+    #@TODO: Add logic to allow certain lines to only be included once
+    #       For instance to filter out `set -o errexit -o errtrace -o nounset -o pipefail`
+    #       or recurring `source` calls
     #@TODO: For now we do not recurse into sourced files
     #elif [[ ${REPLY} =~ ^\s*source ]]; then
     #  sLine=$(replace_line_with_file_content "${REPLY}")

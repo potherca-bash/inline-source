@@ -5,7 +5,11 @@ Inline `source`-ed code.
 ## Installation
 
 The advised installation method is using the [`bpkg` package manager][bpkg], as
-this will allow versioning to be used.
+this will allow versioning to be used:
+
+```sh
+bpkg install potherca-bash/inline-source@v0.1.0
+```
 
 Alternatively, the latest version of this project's main script can be 
 downloaded directly:
