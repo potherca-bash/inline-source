@@ -28,7 +28,7 @@ source 'src/function.replace_line_with_file_content.sh'
       sTrimmedLine="$(echo "${REPLY}" | xargs)"
 
       if [[ "${sTrimmedLine:0:7}" = 'source ' && ${REPLY} != *\$* ]]; then
-        replace_line_with_file_content "${REPLY}"
+        replace_line_with_file_content "${sTrimmedLine}"
       else
         echo "${REPLY}"
       fi
