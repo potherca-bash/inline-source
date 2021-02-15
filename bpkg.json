@@ -14,6 +14,7 @@
     "README.md"
   ],
   "global": "true",
+  "homepage": "https://bpkg.pother.ca/inline-source",
   "install": "install -b dist/inline_source ${PREFIX:-/usr/local}/bin/inline_source && chmod +x ${PREFIX:-/usr/local}/bin/inline_source",
   "license": "MPL-2.0",
   "scripts": [
