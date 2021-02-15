@@ -85,7 +85,7 @@ This repository is set up like this:
 ```
     .
     ├── deps/       <-- Third-party dependencies
-    ├── dist/       <-- Bundled distrubtion script
+    ├── dist/       <-- Bundled distribution script
     ├── src/        <-- Source files
     ├── bpkg.json   <-- Package declaration
     └── README.md   <-- You are here
