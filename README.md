@@ -1,3 +1,5 @@
+![](https://user-images.githubusercontent.com/195757/176200938-ffd3bd0a-7533-48bd-85c2-9338279a1bca.png)
+
 # Inline `source`
 
 Inline `source`-ed code.
